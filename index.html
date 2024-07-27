@@ -16,6 +16,9 @@
                 <p>Contact</p>
                 <p>About</p>
             </div>
+            <div class="hamburger-menu">
+                <img src="images/water-solid.png" alt="menu ber image" width="30%">
+            </div>
         </nav>
         <div class="banner">
             <div class="banner-text">
@@ -26,11 +29,13 @@
                     <button class="btn-2">Download App</button>
                 </div>
             </div>
+
+            
             <div class="banner-image-card">
                 <div>
                     <img class="img-1" src="images/Images 2.png" alt="body builder png image">
                 </div>
-                
+
                 <div class="card-1">
                     <div class="ball-1"></div>
                     <div class="card-text">
@@ -80,8 +85,11 @@
                 <div class="run-container">
                     <div class="run">
                         <h2>Run an Extra 
-                            Mile Easily</h2>
-                            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                            Mile Easily
+                        </h2>
+                            <p>
+                                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.
+                            </p>
                             <button class="btn-3">Join Now</button>
                     </div>
                     <div>
@@ -123,25 +131,24 @@
                     <h3>Calculate your BMI</h3>
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
                     <div>
-                        <form> 
+                        <form>
                             <input type="text" placeholder="Height/cm">
                             <input type="text" placeholder="Weight/kg">
-                            <br><br>
                             <input type="number" name="" id="" placeholder="Age">
-                            <input type="text" name="" id="" placeholder="Sex">
-                            <!-- <select name="Sex" id="Sex">
+                            <!-- <input type="text" name="" id="" placeholder="Sex"> -->
+                            <select class="select1" name="Sex" id="Sex" >
+                                <option class="sex" value="#">Sex</option>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
-                            </select> -->
-                            <br><br>
-                            <input class="input-5" type="text" placeholder="Select an activity factor">
-                            <!-- <select name="activity" id="activity">
+                            </select>
+                            <!-- <input class="input-5" type="text" placeholder="Select an activity factor"> -->
+                            <select class="select2" name="activity" id="activity">
+                                <option value="#">Select an activity factor</option>
                                 <option value="Sedentary">Sedentary (little or no exercise)</option>
                                 <option value="Lightly active">Lightly active (light exercise/sports 1-3 days/week)</option>
                                 <option value="Moderately active">Moderately active (moderate exercise/sports 3-5 days/week)</option>
                                 <option value="Very active">Very active (hard exercise/sports 6-7 days a week)</option>
-                            </select> -->
-                            <br><br>
+                            </select>
                             <input class="btn-calculate" type="submit" value="Calculate">
                         </form>
                     </div>
@@ -153,12 +160,48 @@
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                 </div>
                 <div class="teams-images">
-                    <div class="trainer1"><img class="img-4" src="images/trainer1.png" alt="trainer photo"></div>
-                    <div class="trainer2"><img class="img-4" src="images/trainer2.png" alt="trainer photo"></div>
-                    <div class="trainer3"><img class="img-4" src="images/trainer3.png" alt="trainer photo"></div>
-                    <div class="trainer4"><img class="img-4" src="images/trainer4.png" alt="trainer photo"></div>
-                    <div class="trainer5"><img class="img-4" src="images/trainer5.png" alt="trainer photo"></div>
-                    <div class="trainer6"><img class="img-4" src="images/trainer6.png" alt="trainer photo"></div>
+                    <div class="trainer1">
+                        <div class="team-img1-text">
+                            <h4>Jerome Bell</h4>
+                            <p>Trainer</p>
+                        </div>
+                        <img class="img-4" src="images/trainer1.png" alt="trainer photo">
+                    </div>
+                    <div class="trainer2">
+                        <div class="team-img1-text">
+                            <h4>Cameron Williamson</h4>
+                            <p>Trainer</p>
+                        </div>
+                        <img class="img-4" src="images/trainer2.png" alt="trainer photo">
+                    </div>
+                    <div class="trainer3">
+                        <div class="team-img1-text">
+                            <h4>Darrell Steward</h4>
+                            <p>Trainer</p>
+                        </div>
+                        <img class="img-4" src="images/trainer3.png" alt="trainer photo">
+                    </div>
+                    <div class="trainer4">
+                        <div class="team-img1-text">
+                            <h4>Dianne Russell</h4>
+                            <p>Trainer</p>
+                        </div>
+                        <img class="img-4" src="images/trainer4.png" alt="trainer photo">
+                    </div>
+                    <div class="trainer5">
+                        <div class="team-img1-text">
+                            <h4>Cody Fisher</h4>
+                            <p>Trainer</p>
+                        </div>
+                        <img class="img-4" src="images/trainer5.png" alt="trainer photo">
+                    </div>
+                    <div class="trainer6">
+                        <div class="team-img1-text">
+                            <h4>Theraesa Webb</h4>
+                            <p>Trainer</p>
+                        </div>
+                        <img class="img-4" src="images/trainer6.png" alt="trainer photo">
+                    </div>
                 </div>
             </section>
         </main>
@@ -171,10 +214,12 @@
             </div>
             <div class="footer-column-1">
                 <h4 class="column-1-title">Get Started</h4>
+                <!-- <div class="footer-column-link1"> -->
                 <a href="#" target="_blank">Service</a>
                 <a href="#" target="_blank">Contact Us</a>
                 <a href="#" target="_blank">Affiliate program</a>
                 <a href="#" target="_blank">About Us</a>
+                <!-- </div> -->
             </div>
             <div class="footer-column-2">
                 <h4 class="column-2-title">Get Started</h4>
@@ -190,6 +235,5 @@
             <p>All right reserved @Fitness 2024</p>
         </div>
     </footer>
-    
 </body>
 </html>
