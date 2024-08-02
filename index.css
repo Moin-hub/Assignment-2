@@ -29,7 +29,9 @@
     color: white;
 }
 
-
+*{
+    border: 1px solid red;
+}
 
 
 
@@ -681,21 +683,21 @@ footer{
     
     .banner-bold{
         font-size: 2.2rem;
-        max-width: 400px;
+        max-width: 70%;
     }
     .shape{
         font-size: 2.2rem;
     }
     .banner-para{
         font-size: 0.8rem;
-        max-width: 400px;
         color: lightgray;
     }
     .banner-text{
+        width: 87vw;
         margin-left: -130px;
     }
     .banner-para{
-        width: 45%;
+        width: 70%;
     }
     .nav-name{
         margin-left: 30px;
@@ -721,6 +723,7 @@ footer{
         /* max-width: 100%; */
         position: relative;
         left: -100px;
+        width: 60vw;
     }
     .number-1{
         font-size: 18px;
@@ -732,13 +735,13 @@ footer{
         font-size: 12px;
     }
     .card-1{
-    width: 200px;
+    width: 30vw;
     height: 60px;
     margin-left: -400px;
     margin-top: 250px;
 }
 .card-2{
-    width: 200px;
+    width: 30vw;
     height: 60px;
     margin-left: -50px;
     margin-top: 50px;
@@ -793,19 +796,19 @@ footer{
         width: 50%;
     }
     .timg2-container{
-        width: 48%;
+        width: 47%;
     }
     .timg3-container{
         width: 45%;
     }
     .timg4-container{
-        width: 53%;
+        width: 52%;
     }
     .timg5-container{
         width: 48%;
     }
     .timg6-container{
-        width: 50%;
+        width: 49%;
     }
     .timg1-text{
         color: white;
@@ -886,6 +889,7 @@ footer{
     .bmi-calculate{
         display: flex;
         flex-direction: column;
+        
     }
     .bmi-calculate p{
         margin-top: -10px;
@@ -894,22 +898,21 @@ footer{
         margin-top: 60px;
     }
 
-    form{
-        width: 500px;
-    }
-    form input{
-        width: 180px;
+    
+    .formbmi input{
         margin-top: 10px;
+        width: 40%;
     }
-    .select1{
-        width: 200px;
+    .formbmi .select1{
+        width: 46%;
+        border: none;
     }
-    .select2{
-        width: 404px;
+    .formbmi .select2{
+        width: 94%;
+        border: none;
     }
-    .input-5{
-        width: 385px;
-    }
+    
+    
 }
 
 /* our team for media query */
@@ -934,9 +937,11 @@ footer{
         display: flex;
         flex-direction: column;
         margin-left: 30px;
+        width: 80vw;
     }
     .footer-column-1{
         margin-top: -150px;
+        
     }
     .footer-column-2{
         margin-top: -150px;
