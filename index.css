@@ -888,6 +888,8 @@ footer{
         display: flex;
         flex-direction: column;
         
+        position: relative;
+        left: 15%;
     }
     .bmi-calculate p{
         margin-top: -10px;
